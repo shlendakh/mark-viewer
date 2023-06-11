@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mark-viewer/static/css/main.b7d0ba3d.css",
+    "main.js": "/mark-viewer/static/js/main.b0f2e1e2.js",
+    "index.html": "/mark-viewer/index.html",
+    "main.b7d0ba3d.css.map": "/mark-viewer/static/css/main.b7d0ba3d.css.map",
+    "main.b0f2e1e2.js.map": "/mark-viewer/static/js/main.b0f2e1e2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b7d0ba3d.css",
+    "static/js/main.b0f2e1e2.js"
+  ]
+}
