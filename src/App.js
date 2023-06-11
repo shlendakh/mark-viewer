@@ -1,8 +1,8 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { updateMarkdown } from './redux/actions';
-import Editor from './components/Editor';
-import Previewer from './components/Previewer';
+import Editor from './components/Editor/Editor';
+import Previewer from './components/Previewer/Previewer';
 
 class App extends React.Component {
   render() {

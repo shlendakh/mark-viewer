@@ -1,4 +1,5 @@
 import React from 'react';
+import './Editor.scss'
 
 class Editor extends React.Component {
   render() {
