@@ -19,7 +19,7 @@ One of many apps I create during class on Freecodecamp courses. More info about 
 
 ## Demo
 
-You can use demo here [Click me](https://shlendakh.github.io/mark-viewer/)
+You can use demo here -> [click me](https://shlendakh.github.io/mark-viewer/)
 
 ## Technologies Used
 
