@@ -1,1 +1,70 @@
-/*# sourceMappingURL=Previewer.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+.preview {
+  width: 100vw;
+  max-width: 100%;
+  height: 60vh;
+  max-height: 60%;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  background-color: #22272e;
+  color: #adbac7;
+  padding: 10px 20px;
+  line-height: 1.5;
+  overflow: auto;
+}
+.preview a {
+  color: #b36200;
+}
+.preview blockquote {
+  border-left: 3px solid #adbac7;
+  padding-left: 10px;
+}
+.preview h1 {
+  font-weight: 900;
+  padding-bottom: 5px;
+  margin-bottom: 18px;
+}
+.preview h2 {
+  font-weight: 800;
+  padding-bottom: 5px;
+  margin-bottom: 16px;
+}
+.preview h3 {
+  font-weight: 700;
+  padding-bottom: 5px;
+  margin-bottom: 14px;
+}
+.preview h4 {
+  font-weight: 600;
+  padding-bottom: 5px;
+  margin-bottom: 12px;
+}
+.preview h5 {
+  font-weight: 500;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+.preview h6 {
+  font-weight: 400;
+  padding-bottom: 5px;
+  margin-bottom: 8px;
+}
+.preview h1, .preview h2 {
+  border-bottom: 1px solid #adbac7;
+}
+.preview code, .preview pre {
+  background-color: #adbac7;
+}
+.preview code {
+  color: #22272e;
+  padding: 3px 5px;
+  margin: 0 3px;
+}
+.preview pre {
+  padding: 10px 5px;
+}
+.preview p {
+  margin-bottom: 15px;
+}/*# sourceMappingURL=Previewer.css.map */

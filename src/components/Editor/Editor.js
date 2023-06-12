@@ -4,7 +4,7 @@ import './Editor.scss'
 class Editor extends React.Component {
   render() {
     return (
-      <textarea id="editor" value={this.props.value} onChange={this.props.onChange} />
+      <textarea id="editor" className="editor" value={this.props.value} onChange={this.props.onChange} />
     );
   }
 }

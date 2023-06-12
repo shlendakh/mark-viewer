@@ -1,3 +1,65 @@
 // Imports
 
-@import '../../styles/variables'
+@import '../../styles/variables';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.preview {
+    width: 100vw;
+    max-width: 100%;
+    height: 60vh;
+    max-height: 60%;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    background-color: $dark-color-2;
+    color: $light-color-2;
+    padding: 10px 20px;
+    line-height: 1.5;
+    overflow: auto;
+
+    a {
+        color: $link-color;
+    }
+
+    blockquote {
+        border-left: 3px solid $light-color-2;
+        padding-left: 10px;
+    }
+
+    @for $i from 1 through 6 {
+        h#{$i} {
+          font-weight: 900 - ($i - 1) * 100;
+          padding-bottom: 5px;
+          margin-bottom: 20px - ($i * 2);
+        }
+      }
+
+    h1, h2 {
+        border-bottom: 1px solid $light-color-2;
+    }
+
+    code, pre {
+        background-color: $light-color-2;
+    }
+
+    code {
+        color: $dark-color-2;
+        padding: 3px 5px;
+        margin: 0 3px;
+    }
+
+    pre {
+        padding: 10px 5px;
+    }
+
+    p {
+        margin-bottom: 15px;
+    }
+}
+
+
+
+

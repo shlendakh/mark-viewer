@@ -11,7 +11,7 @@ class Previewer extends React.Component {
   }
 
   render() {
-    return <div id="preview" dangerouslySetInnerHTML={this.getMarkdownText()} />;
+    return <div id="preview" className="preview" dangerouslySetInnerHTML={this.getMarkdownText()} />;
   }
 }
 

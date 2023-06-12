@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import { updateMarkdown } from './redux/actions';
 import Editor from './components/Editor/Editor';
 import Previewer from './components/Previewer/Previewer';
+import './App.scss';
 
 class App extends React.Component {
   render() {
