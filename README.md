@@ -13,7 +13,7 @@ One of many apps I create during class on Freecodecamp courses. More info about 
 ## Installation and Setup
 
 1. Clone the repository: `git clone https://github.com/shlendakh/mark-viewer.git`.
-2. Navigate into the project directory: `cd markdown-previewer`.
+2. Navigate into the project directory: `cd markdown-viewer`.
 3. Install the dependencies: `npm install`.
 4. Start the application: `npm start`.
 
